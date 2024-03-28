@@ -1,0 +1,5 @@
+package com.rays.autowiring;
+
+public interface Dept {
+public void work();
+}

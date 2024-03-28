@@ -1,0 +1,11 @@
+package com.rays.bean;
+
+public class Car  implements Engine{
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

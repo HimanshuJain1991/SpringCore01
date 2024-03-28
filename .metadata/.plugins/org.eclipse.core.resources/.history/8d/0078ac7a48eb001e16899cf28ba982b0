@@ -1,0 +1,8 @@
+package com.rays.autowiring;
+
+public class HRDept {
+	public void work() {
+		System.out.println("some work of human resource??@@");
+	}
+
+}

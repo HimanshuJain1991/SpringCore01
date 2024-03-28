@@ -1,0 +1,8 @@
+package com.rays.dic;
+
+public class Engine {
+	public void start() {
+		System.out.println("Engine has been Started");
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.rays.autowiring;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Company {
+	HRDept dept;
+	@Autowired
+ public Company(HRDept dept) {
+	 this.dept =dept;
+ }
+ public void  companyWork() {
+	 if(dept==null)
+		 System.out.println("No Client No Work");
+	 else
+		 dept.work();
+ }
+
+}

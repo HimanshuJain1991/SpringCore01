@@ -1,0 +1,12 @@
+package com.rays.dependency_injection;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ConditionContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestMain {
+	ApplicationContext ac=new ClassPathXmlApplicationContext("DependInje.xml");
+	ac.
+	
+
+}

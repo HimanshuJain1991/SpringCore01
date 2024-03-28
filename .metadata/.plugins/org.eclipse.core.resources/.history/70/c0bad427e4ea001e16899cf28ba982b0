@@ -1,0 +1,9 @@
+package com.rays.dependency_injection_constructor;
+
+public   class Bike {
+Engine engine;
+public Bike(Engine engine) {
+	this.engine=engine;
+	System.out.println("I am Constructor");
+}
+}
